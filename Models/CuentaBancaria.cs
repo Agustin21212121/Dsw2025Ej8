@@ -1,4 +1,4 @@
-﻿using Dsw2025Ej8.Domain;
+using Dsw2025Ej8.Domain;
 using Dsw2025Ej8.Exceptions;
 
 namespace Dsw2025Ej8.Models;
@@ -9,6 +9,7 @@ public class CuentaBancaria
     public string _numero { get; }
     public decimal _saldo { get; set; }
     protected Estado _estado { get; set; }
+    protected string[] _titulares { get; }
 
     public CuentaBancaria(string numero, decimal saldo)
     {
