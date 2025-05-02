@@ -1,4 +1,6 @@
-﻿namespace Dsw2025Ej8.Domain;
+﻿using Dsw2025Ej8.Domain;
+
+namespace Dsw2025Ej8.Models;
 
 public class CuentaBancaria
 {
