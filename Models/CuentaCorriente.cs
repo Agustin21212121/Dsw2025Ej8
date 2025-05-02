@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,7 +21,7 @@ namespace Dsw2025Ej8.Models
         {
             base.Depositar(monto);
             monto -= monto * _comision;
-            _saldo += monto;
+            _saldo += monto;  
         }
 
         public override void Retirar(decimal monto)
